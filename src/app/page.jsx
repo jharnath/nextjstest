@@ -4,8 +4,8 @@ import Image from "next/image";
 const Home = () => {
   return <div className={styles.container}>
     <div className={styles.textContainer}>
-      <h1>Jarrod's NextJs Test</h1>
-      <p>This is my testing site for a Fullstack NextJs app</p>
+      <h1 className={styles.title}>Jarrod's NextJs Test</h1>
+      <p className={styles.desc}>This is my testing site for a Fullstack NextJs app</p>
       <div className={styles.buttons}>
         <button className={styles.button}>Learn More</button>
         <button className={styles.button}> Contact</button>
